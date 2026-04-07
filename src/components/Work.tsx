@@ -5,33 +5,37 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "CallHQ",
-    category: "Voice AI Calling Platform",
-    tools: "Voice AI, Calling Automation, CRM Integrations",
-    image: "/images/callhq.png",
-    link: "https://callhq.ai",
+    title: "FlowOS",
+    category: "DeFi Financial OS",
+    tools: "Flow Blockchain, Web3, Decentralized Finance",
+    image: "/images/flowos.png",
+    link: "https://flow-os-08fw.onrender.com/",
+    github: "https://github.com/shriyashsoni/flow-os"
   },
   {
-    title: "Whatsapp Automation",
-    category: "WABA Application",
-    tools: "WhatsApp Business API, Workflow Automation, Notifications",
-    image: "/images/whatsapp.png",
-    link: "https://whatsapp.callhq.ai",
+    title: "Defaiance",
+    category: "Decentralized Investment Platform",
+    tools: "Web3 Technologies, DeFi Infrastructure, AI-Driven Analytics",
+    image: "/images/defaiance.png",
+    link: "https://defaiance-2iqs.vercel.app/",
+    github: "https://github.com/shriyashsoni/defaiance"
   },
   {
-    title: "Broki",
-    category: "Real Estate Platform for FnB Industry",
-    tools: "Property Discovery, Lead Management, Marketplace Workflows",
-    image: "/images/broki.png",
-    link: "https://broki.in",
+    title: "YieldMind",
+    category: "AI-Powered DeFi Platform on Polygon",
+    tools: "Polygon Amoy, Smart Contracts, Risk-Aware Automation",
+    image: "/images/yieldmind.png",
+    link: "https://yieldmind.vercel.app/",
+    github: "https://github.com/shriyashsoni/yield-mind-on-polygon"
   },
   {
-    title: "Orrdr.com",
-    category: "Ecommerce Platform and Mobile App",
-    tools: "Ecommerce, Mobile Experience, Order Management",
-    image: "/images/orrdr.png",
-    link: "https://orrdr.com",
-  },
+    title: "Aleo Confidential AI",
+    category: "Decentralized AI Marketplace",
+    tools: "Aleo Blockchain, Confidential Inference, Data Trading",
+    image: "/images/aleo.png",
+    link: "https://aura-protocol-seven.vercel.app/",
+    github: "https://github.com/shriyashsoni/Aura-Protocol"
+  }
 ];
 
 const Work = () => {
@@ -117,6 +121,7 @@ const Work = () => {
                         image={project.image}
                         alt={project.title}
                         link={project.link}
+                        github={project.github}
                       />
                     </div>
                   </div>

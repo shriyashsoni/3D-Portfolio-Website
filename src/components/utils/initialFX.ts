@@ -72,65 +72,55 @@ export function initialFX() {
     }
   );
 
-  var landingText3 = new SplitText(".landing-h2-info-1", TextProps);
-  var landingText4 = new SplitText(".landing-h2-1", TextProps);
-  var landingText5 = new SplitText(".landing-h2-2", TextProps);
+  var classes1 = [
+    ".landing-h2-1",
+    ".landing-h2-2",
+    ".landing-h2-3",
+    ".landing-h2-4",
+    ".landing-h2-5"
+  ];
 
-  LoopText(landingText2, landingText3);
-  LoopText(landingText4, landingText5);
+  LoopMultiple(classes1, TextProps);
 }
 
-function LoopText(Text1: SplitText, Text2: SplitText) {
-  var tl = gsap.timeline({ repeat: -1, repeatDelay: 1 });
-  const delay = 4;
-  const delay2 = delay * 2 + 1;
+function LoopMultiple(selectors1: string[], TextProps: any) {
+  const TextArr1 = selectors1.map((sel) => new SplitText(sel, TextProps));
 
-  tl.fromTo(
-    Text2.chars,
-    { opacity: 0, y: 80 },
-    {
-      opacity: 1,
-      duration: 1.2,
-      ease: "power3.inOut",
-      y: 0,
-      stagger: 0.1,
-      delay: delay,
-    },
-    0
-  )
-    .fromTo(
-      Text1.chars,
-      { y: 80 },
+  var tl = gsap.timeline({ repeat: -1 });
+  const delay = 4;
+
+  TextArr1.forEach((text, i) => {
+    if (i !== 0) {
+      gsap.set(text.chars, { opacity: 0, y: 80 });
+    }
+  });
+
+  for (let i = 0; i < TextArr1.length; i++) {
+    let nextIdx = (i + 1) % TextArr1.length;
+    let curr1 = TextArr1[i];
+    let next1 = TextArr1[nextIdx];
+
+    tl.to(
+      curr1.chars,
       {
-        duration: 1.2,
-        ease: "power3.inOut",
-        y: 0,
-        stagger: 0.1,
-        delay: delay2,
-      },
-      1
-    )
-    .fromTo(
-      Text1.chars,
-      { y: 0 },
-      {
-        y: -80,
+        y: -100,
+        opacity: 0,
         duration: 1.2,
         ease: "power3.inOut",
         stagger: 0.1,
         delay: delay,
-      },
-      0
-    )
-    .to(
-      Text2.chars,
+      }
+    ).fromTo(
+      next1.chars,
+      { y: 80, opacity: 0 },
       {
-        y: -80,
+        y: 0,
+        opacity: 1,
         duration: 1.2,
         ease: "power3.inOut",
         stagger: 0.1,
-        delay: delay2,
       },
-      1
+      "<0.2"
     );
+  }
 }

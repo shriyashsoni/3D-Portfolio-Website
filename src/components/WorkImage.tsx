@@ -6,6 +6,7 @@ interface Props {
   alt?: string;
   video?: string;
   link?: string;
+  github?: string;
 }
 
 const WorkImage = (props: Props) => {
@@ -39,6 +40,17 @@ const WorkImage = (props: Props) => {
         <img src={props.image} alt={props.alt} />
         {isVideo && <video src={video} autoPlay muted playsInline loop></video>}
       </a>
+      {props.github && (
+        <a 
+          href={props.github} 
+          target="_blank" 
+          rel="noreferrer" 
+          data-cursor="disable" 
+          style={{ display: 'block', marginTop: '1rem', color: '#ffd700', textDecoration: 'none', fontWeight: 'bold' }}
+        >
+          View Source &rarr;
+        </a>
+      )}
     </div>
   );
 };

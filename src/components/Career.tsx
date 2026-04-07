@@ -15,58 +15,43 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Co-Founder</h4>
-                <h5>CallHQ.ai</h5>
+                <h4>Founder</h4>
+                <h5><a href="https://www.apnacounsellor.in" target="_blank" rel="noreferrer" style={{color: 'inherit', textDecoration: 'none'}}>Apna Counsellor ↗</a></h5>
               </div>
-              <h3>NOW</h3>
+              <h3>2024–NOW</h3>
             </div>
             <p>
-              Building CallHQ.ai, a voice AI platform for
-              automating customer calls, support, and conversions.
+              AI-driven EdTech platform for student career counseling and university admissions. Democratized guidance making it affordable (₹250-₹1000), assisting 6,000+ students in 2 years.
+              <br/><br/>
+              <span style={{color: '#ffd700'}}>Highlights:</span> Represented at MIT Start 2026, IIT Bombay Finalist, Vibecon (by Y Combinator & Emergent).
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Adobe</h4>
-                <h5>6+ years · Noida</h5>
+                <h4>Founder</h4>
+                <h5><a href="https://apnacoding.site" target="_blank" rel="noreferrer" style={{color: 'inherit', textDecoration: 'none'}}>Apna Coding ↗</a></h5>
               </div>
-              <h3>2017–24</h3>
+              <h3>2024–NOW</h3>
             </div>
             <p>
-              Senior Lead Software Engineer (Feb 2024 – May 2024). Lead Software
-              Engineer (Feb 2021 – Feb 2024). Software Engineer II (Dec 2017 –
-              Feb 2021): internationalization, globalization, and localization for
-              Adobe Technical Communication Suite; functional and linguistic testing
-              strategy; in-house tooling; collaboration with product and engineering
-              for high-quality localized releases.
+              Web3 open-source layer and Ethereum launchpad securing funds & mentorship for ecosystem projects. Built a global community of 20,000+ developers across India, Dubai, London, and the USA.
+              <br/><br/>
+              <span style={{color: '#ffd700'}}>Highlights:</span> 50+ Web3 partnerships. Represented at Dubai Function One, India Blockchain Week, and ETH Denver USA.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Consultant</h4>
-                <h5>Genpact Headstrong </h5>
+                <h4>Founder</h4>
+                <h5>Brixs</h5>
               </div>
-              <h3>2016–17</h3>
+              <h3>2025–NOW</h3>
             </div>
             <p>
-              Sep 2016 – Nov 2017. Developed and maintained WCF services consumed
-              by the UI; deployment support across environments; NUnit tests and
-              coverage; bug fixes from QA and users; database work.
-            </p>
-          </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>Sf Engineer</h4>
-                <h5>Infogain</h5>
-              </div>
-              <h3>2013-16</h3>
-            </div>
-            <p>
-              Software engineering across enterprise projects, contributing to
-              design, development, and delivery of business applications.
+              Web3 AI Agent platform for generating, auditing, and securely deploying smart contracts on-chain. Integrates leading models (Claude, OpenAI, Gemini) to automate Web3 security workflows.
+              <br/><br/>
+              <span style={{color: '#ffd700'}}>Highlights:</span> Secured 10-20+ ecosystem partnerships. Targeting full platform launch in late 2026.
             </p>
           </div>
         </div>

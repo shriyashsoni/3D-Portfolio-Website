@@ -87,20 +87,19 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>AI & AUTOMATION</h3>
-              <h4>Workflow Intelligence for Organizations</h4>
+              <h3>AI &amp; MACHINE LEARNING</h3>
+              <h4>Intelligent Systems &amp; Tooling</h4>
               <p>
-                AI specialist helping organizations automate workflows—internal ops
-                and customer-facing—so teams ship faster with less manual work.
+                AI specialist developing predictive models and NLP solutions—from ATS resume analyzers to EdTech recommendation engines.
               </p>
-              <h5>Skillset & tools</h5>
+              <h5>Skillset &amp; tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">LLMs &amp; agents</div>
-                <div className="what-tags">Workflow design</div>
-                <div className="what-tags">RAG &amp; retrieval</div>
-                <div className="what-tags">Evals &amp; guardrails</div>
-                <div className="what-tags">Integrations</div>
-                <div className="what-tags">Product strategy</div>
+                <div className="what-tags">LLMs &amp; Agents</div>
+                <div className="what-tags">Fast API</div>
+                <div className="what-tags">scikit-learn</div>
+                <div className="what-tags">spaCy</div>
+                <div className="what-tags">NLTK</div>
+                <div className="what-tags">Prompt Engineering</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -124,21 +123,19 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>BUILD &amp; SCALE</h3>
-              <h4>Shipping AI in Production</h4>
+              <h3>WEB3 &amp; BLOCKCHAIN</h3>
+              <h4>Decentralized Applications &amp; Protocols</h4>
               <p>
-                I build the systems behind it: APIs, data, voice/real-time, and
-                full-stack products—production-ready, not slide decks.
+                Building permissionless ecosystems and scalable dApps. Developing automated DeFi yield optimizers and trustless protocols on Polygon, Solana, Flow, and Ethereum.
               </p>
-              <h5>Skillset & tools</h5>
+              <h5>Skillset &amp; tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Node.js</div>
-                <div className="what-tags">Python</div>
-                <div className="what-tags">REST &amp; real-time APIs</div>
-                <div className="what-tags">PostgreSQL</div>
-                <div className="what-tags">MongoDB</div>
-                <div className="what-tags">React</div>
-                <div className="what-tags">Cloud &amp; infra</div>
+                <div className="what-tags">Smart Contracts</div>
+                <div className="what-tags">Decentralized Finance</div>
+                <div className="what-tags">Web3.js</div>
+                <div className="what-tags">Ethers.js</div>
+                <div className="what-tags">Solidity</div>
+                <div className="what-tags">Move</div>
               </div>
               <div className="what-arrow"></div>
             </div>
